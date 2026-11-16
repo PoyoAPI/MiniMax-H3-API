@@ -11,13 +11,13 @@
 | Field | Requirement | Constraint |
 | --- | --- | --- |
 | prompt | required | Video description, up to 2,000 characters. |
-| duration | required | Integer from 5 to 15 seconds. |
-| resolution | required | 2K. |
+| duration | optional | Integer from 5 to 15 seconds; default 5. |
+| resolution | optional | 2K (default). |
 | aspect_ratio | optional | adaptive, 21:9, 16:9, 4:3, 1:1, 3:4, or 9:16. |
 | image_urls | optional | One or two first/last-frame images. |
 | reference_image_urls | optional | Up to 9 reference images. |
-| reference_video_urls | optional | Up to 3 clips; each 2-5 seconds and at most 15 seconds total. |
-| reference_audio_urls | optional | Up to 3 clips; each 2-5 seconds. |
+| reference_video_urls | optional | Up to 3 clips; each 2-15 seconds and at most 15 seconds total. |
+| reference_audio_urls | optional | Up to 3 clips; each 2-15 seconds and at most 15 seconds total. |
 
 ## Operational checklist
 

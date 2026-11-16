@@ -6,7 +6,7 @@ Call MiniMax H3, exposed as model ID hailuo-03, for 2K text-to-video and referen
 
 **Answer:** To use the MiniMax H3 API (Hailuo 03), send a server-side request to `POST https://api.poyo.ai/api/generate/submit` with model `hailuo-03` and a PoYo API key. The examples in this repository are runnable with Node.js 22+ or cURL.
 
-Last verified against the live PoYo schema and pricing on **August 9, 2026**.
+Last verified against the live PoYo schema and pricing on **November 16, 2026**.
 
 ## Quickstart
 
@@ -32,13 +32,13 @@ Use the exact IDs above. Product names and API model IDs are not always identica
 | Field | Requirement | Meaning |
 | --- | --- | --- |
 | prompt | required | Video description, up to 2,000 characters. |
-| duration | required | Integer from 5 to 15 seconds. |
-| resolution | required | 2K. |
+| duration | optional | Integer from 5 to 15 seconds; default 5. |
+| resolution | optional | 2K (default). |
 | aspect_ratio | optional | adaptive, 21:9, 16:9, 4:3, 1:1, 3:4, or 9:16. |
 | image_urls | optional | One or two first/last-frame images. |
 | reference_image_urls | optional | Up to 9 reference images. |
-| reference_video_urls | optional | Up to 3 clips; each 2-5 seconds and at most 15 seconds total. |
-| reference_audio_urls | optional | Up to 3 clips; each 2-5 seconds. |
+| reference_video_urls | optional | Up to 3 clips; each 2-15 seconds and at most 15 seconds total. |
+| reference_audio_urls | optional | Up to 3 clips; each 2-15 seconds and at most 15 seconds total. |
 
 ## Pricing snapshot
 
