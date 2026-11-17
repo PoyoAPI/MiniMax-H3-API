@@ -1,6 +1,6 @@
 # MiniMax H3 API (Hailuo 03): runnable cURL and Node.js examples
 
-[![PoYo model page](https://img.shields.io/badge/Try%20on%20PoYo-minimax--h3--api-84cc16)](https://poyo.ai/models/minimax-h3) [![API docs](https://img.shields.io/badge/API-docs-22d3ee)](https://docs.poyo.ai/api-manual/video-series/hailuo-03) [![Check](https://github.com/PoyoAPI/minimax-h3-api/actions/workflows/check.yml/badge.svg)](https://github.com/PoyoAPI/minimax-h3-api/actions/workflows/check.yml)
+[![PoYo model page](https://img.shields.io/badge/Try%20on%20PoYo-minimax--h3--api-84cc16)](https://poyo.ai/models/minimax-h3) [![API docs](https://img.shields.io/badge/API-docs-22d3ee)](https://docs.poyo.ai/api-manual/video-series/hailuo-03) [![Check](https://github.com/PoyoAPI/MiniMax-H3-API/actions/workflows/check.yml/badge.svg)](https://github.com/PoyoAPI/MiniMax-H3-API/actions/workflows/check.yml)
 
 Call MiniMax H3, exposed as model ID hailuo-03, for 2K text-to-video and reference-driven video generation.
 
